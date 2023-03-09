@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Get the path to the parent directory
+parent_dir=$(dirname $(pwd))
+
+# Copy HTML files from the current directory to the parent directory
+cp -u *.html $parent_dir/
