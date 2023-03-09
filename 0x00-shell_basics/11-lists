@@ -13,5 +13,3 @@ ls -al ../
 echo ""
 echo "/boot directory:"
 ls -al /boot/
-
-
