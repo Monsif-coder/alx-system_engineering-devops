@@ -1,1 +1,0 @@
-fin asi mohmad
