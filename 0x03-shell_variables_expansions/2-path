@@ -1,2 +1,2 @@
 #!/bin/bash
-CDPATH=PATH:/action
+export CDPATH=.:$PATH:/action
