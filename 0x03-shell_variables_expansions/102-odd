@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n '' input.txt | head -n $(($(wc -l < input.txt) / 2 + 1))
+perl -lne 'print if $. % 2 ==1'
